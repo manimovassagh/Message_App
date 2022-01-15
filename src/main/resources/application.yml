@@ -23,12 +23,12 @@ spring:
 
 
   datastax.astra:
-    secure-connect-bundle: connect.zip
+    secure-connect-bundle: secure-connect.zip
 
   astra:
     db:
-      id: <astra-db-id>
-      region: <astra-db-region>
-      keyspace: <astra-db-keyspace-name>
+      id: 9b253c8f-c1a8-4b5f-b353-ce893109f8c7
+      region: europe-west1
+      keyspace: main
       application:
         token: AstraCS:axbtAlQiJxokBMbbJzQmdtgg:e6a8d26a16b68d27f07fe30d71684d79131242c8f917385678a12e5bf488beb1
