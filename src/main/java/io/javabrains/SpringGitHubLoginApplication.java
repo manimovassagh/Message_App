@@ -14,7 +14,7 @@ public class SpringGitHubLoginApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringGitHubLoginApplication.class, args);
 	}
-
+//just solve Maven Problem
 	@RequestMapping("/user")
 	public String user(@AuthenticationPrincipal OAuth2User principal) {
 		System.out.println(principal);
