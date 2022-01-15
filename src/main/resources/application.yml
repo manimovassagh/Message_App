@@ -7,3 +7,28 @@ spring:
             client-id: Iv1.ab13e0b8fb466c32
             client-secret: b7c97bfa0d3ef8ebfe027f42a28d97e82c47a3f6
 
+    data:
+      cassandra:
+        keyspace-name: main
+        username: axbtAlQiJxokBMbbJzQmdtgg
+        password: X_i-SzOh6seIRB9Gv33ea1ghg0-Hk.pRSM-Tch.Q28v0oYaz_lYN.kqDE1X_35yleGmGhvRS7cht4s-,pb3k_n5Pz9Yva8H4jGPlntrINSJ.hjjN3HGkgRCvXeAUZaB0
+        schema-action: recreate-drop-unused
+        request:
+          timeout: 10s
+        connection:
+          connect-timeout: 10s
+          init-query-timeout: 10s
+    application:
+      name: inbox-app
+
+
+  datastax.astra:
+    secure-connect-bundle: connect.zip
+
+  astra:
+    db:
+      id: <astra-db-id>
+      region: <astra-db-region>
+      keyspace: <astra-db-keyspace-name>
+      application:
+        token: AstraCS:axbtAlQiJxokBMbbJzQmdtgg:e6a8d26a16b68d27f07fe30d71684d79131242c8f917385678a12e5bf488beb1
