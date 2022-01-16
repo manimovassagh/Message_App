@@ -23,6 +23,7 @@ public class InboxApp {
 	@RequestMapping("/user")
 	public String user(@AuthenticationPrincipal OAuth2User principal) {
 		System.out.println(principal);
+		System.out.println(principal);
 		return principal.getAttribute("name");
 	}
 
